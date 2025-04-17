@@ -1,0 +1,11 @@
+Instruction. Medical Assistant.
+1. Клонируйте репозиторий:
+  git clone ссылка на репозиторий
+  cd репозиторий
+
+2. Создайте файл config и укажите в нем токен бота:
+  TOKEN=ваш_токен_бота
+
+3. Соберите и запустите контейнер:
+  docker build -t medical_assistant .
+  docker run -it --rm --name bot medical_assistant
